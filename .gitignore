@@ -1,0 +1,12 @@
+# Ignore backend virtual environments
+backend/venv/
+backend/env/
+
+# Ignore frontend dependencies
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+
+# Ignore environment variables / secrets
+**.env
+**.env.local
